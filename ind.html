@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muthupandi-portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e93b81;
+        }
+        header{
+            background-color:blue;
+            color: red;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;/Add this/
+        }
+        .header-content h1{
+            font-size: 2.7rem;
+        }
+        /* Add styles for the round portfolio picture */
+        .profile-picture{
+            width: 100px;
+            height: 100px;
+            border-radius: 20%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+        nav{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            height: 70px;
+            padding: 15px 0;
+            justify-content: space-between;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .section-content{
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.102);
+            background-position: center;
+        }
+        
+        .download-button{
+            background-color: #0c2e6a;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .download-button:hover{
+            background-color: #555;
+        }
+        footer{
+            text-align: center;
+            padding: 1 rem 0;
+            background-color: #333;
+            color: #fff;
+        
+        }
+        ul{
+            list-style: disc;
+            padding-left: 20px;
+            font-size: 20px;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!---Add your profile picture here--->
+            <img src="m.pandi.jpg" alt="Your profile picture" class="profile-picture">
+            <h1>Muthupandi.M</h1>
+            <p>Software field job on interesting</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fa-solid fa-address-card"></i> About</a></li>
+            <li><a href="#education"><i class="fa-solid fa-school"></i> Education</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-user"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fa-brands fa-r-project"></i> Projects</a></li>
+            <li><a href="#resume"><i class="fa-regular fa-file"></i> Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <b>Hello Everyone...! My name is M.Muthupandi. I am from Karaiyur and I am a Computer Science Student.</b>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>B.Sc COMPUTER SCIENCE
+            </h2>
+            <b>Arumugam Pillai Seethai Ammal College Tirupattur.</b><br><br>
+            <b>Alagappa University</b>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>HTML</li>
+                <li>Data Structure</li>
+                <li>Web design</li>''
+            </ul>
+        </div>
+    </section>
+    
+                <!----Add more project links here--->
+    <section id="projects">
+        <div class="section-content">
+        <h2>Projects</h2>
+            <ul>
+                <li><a href="WhatsApp Video 2023-10-18 at 6.24.27 PM.mp4">Project 1</a></li>
+                <li><a href="https://www.youtube.com/embed/iXzNUJkIjmg?si=wvUj-EYjC14ky2Ux" allowfullscreen>Project 2</a></li>
+                <li><a href="https://www.youtube.com/embed/VlQO6opxKRU?si=T-yTvgV8EISynJ1N" allowfullscreen>Project 3</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <center>
+            <div class="section-content">
+                <h2>Resume</h2>
+                <a href="resume.png" class="download-button">Download CV</a>
+            </div>
+        </center>
+    </section>
+    <footer>
+        <p>&copy;2023 Muthupandi</p>
+    </footer>
+</body>
+</html>
